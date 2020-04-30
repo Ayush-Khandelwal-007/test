@@ -56,19 +56,19 @@ function pageReady() {
         }
         if(x+y+z==0)
         {
-            document.getElementById("mess").innerHTML="<p>Cdfchchgtvf</p>"
+            document.getElementById("mess").innerHTML="<p>You are totally fine.</p>"
         }
         if(x+y+z==1)
         {
-            document.getElementById("mess").innerHTML="<p>Cdfchchgtvf111</p>"
+            document.getElementById("mess").innerHTML="<p>Maintain social distancing.</p>"
         }
         if(x+y+z==2)
         {
-            document.getElementById("mess").innerHTML="<p>Cdfchchgtvf222</p>"
+            document.getElementById("mess").innerHTML="<p>You should go on quarantine.</p>"
         }
         if(x+y+z==3)
         {
-            document.getElementById("mess").innerHTML="<p>Cdfchchgtvf333</p>"
+            document.getElementById("mess").innerHTML="<p>Contant to doctor as soon as possible</p>"
         }
     }
 }
