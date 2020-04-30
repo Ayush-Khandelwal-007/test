@@ -1,38 +1,39 @@
+
 function pageReady() {
     document.getElementById("bt").onclick=function(){
         var c=0;
         var t=document.getElementById("1");
-        if(t)
+        if(t.checked == true)
         {
             c+=1;
         }
         var t=document.getElementById("2");
-        if(t)
+        if(t.checked == true)
         {
             c+=1;
         }
         var t=document.getElementById("3");
-        if(t)
+        if(t.checked == true)
         {
             c+=1;
         }
         var t=document.getElementById("4");
-        if(t)
+        if(t.checked == true)
         {
             c+=1;
         }
         var t=document.getElementById("5");
-        if(t)
+        if(t.checked == true)
         {
             c+=1;
         }
         var t=document.getElementById("6");
-        if(t)
+        if(t.checked == true)
         {
             c+=1;
         }
         var t=document.getElementById("7");
-        if(t)
+        if(t.checked == true)
         {
             c+=1;
         }
@@ -45,11 +46,29 @@ function pageReady() {
         if(c>=4){
             x=1;
         }
-        y=document.getElementById("8");
-        z=document.getElementById("9");
+        if (document.getElementById("8").checked == true)
+        {
+            y=1;
+        }
+        if (document.getElementById("9").checked == true)
+        {
+            z=1;
+        }
         if(x+y+z==0)
         {
             document.getElementById("mess").innerHTML="<p>Cdfchchgtvf</p>"
+        }
+        if(x+y+z==1)
+        {
+            document.getElementById("mess").innerHTML="<p>Cdfchchgtvf111</p>"
+        }
+        if(x+y+z==2)
+        {
+            document.getElementById("mess").innerHTML="<p>Cdfchchgtvf222</p>"
+        }
+        if(x+y+z==3)
+        {
+            document.getElementById("mess").innerHTML="<p>Cdfchchgtvf333</p>"
         }
     }
 }
