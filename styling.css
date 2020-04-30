@@ -211,7 +211,7 @@ h1 a{
 
 .sidebar h3{
     color: rgb(238, 28, 185);
-    font-size: 30px;
+    font-size: 45px;
     font-family: 'Girassol', cursive;
     margin: 10px 0px;
 }
@@ -267,26 +267,30 @@ h1 a{
     display: flex;
     flex-direction: row;
     margin: 0px;
+    border: 2px solid blue;
+    border-radius: 20px;
+    padding-right: 80px;
+    padding-left: 20px;
 }
 
 .form{
-    flex:40%;
-    padding: 40px 20px;
+    padding: 40px 0px 40px 20px;
     border: 1px solid rgb(25, 175, 25);
-    margin: 60px 10px 30px 10px;
+    margin: 60px 0px 30px 10px;
     border-radius: 20px;
 }
 
 .visuals{
-    flex:60%;
     display: flex;
     flex-direction: row;
     margin-top: 80px;
     margin-bottom: 30px;
+    position: relative;
+    left: 40px;
 }
 
 input{
-    margin: 10px 8px;
+    margin: 12px 8px;
 }
 
 .footer{
@@ -304,7 +308,8 @@ iframe{
 .message{
     flex:20%;
     background-color: #c6faf1;
-    width: 70%;
+    width: 0%;
+    margin: 1px solid black;
 }
 .message p{
     width: 200px;
@@ -313,32 +318,42 @@ iframe{
     background-color: white;
     position: relative;
     top:10%;
-    right: 25%;
+    right: 40%;
     justify-self: center;
+    margin: 1px solid black;
+    font-size: 20px;
 }
 
 #pg{
-    zoom: 1.3;
-    transform: scale(1);
+    zoom: 2.4;
+    transform: scale(1.);
     transform-origin: 20 0;
     height:100% ;
-    width:110;
+    width:60%;
 }
 
 button{
     position: relative;
     left: 40%;
-    bottom: 20%;
 }
 
 .form h3{
-    font-size: 20px;
+    font-size: 30px;
     font-family: 'Girassol', cursive;
     color: red;
     align-self: center;
 }
 
-@media screen and (max-width: 700px){
+label{
+    background-color: rgb(238, 82, 225);
+    color: cyan;
+    font-size: 15px;
+    border-radius: 7px;
+    padding: 5px 5px;
+    width: 40%;
+}
+
+@media screen and (max-width: 900px){
     .test{
         display: flex;
         flex-direction: column;
@@ -362,11 +377,18 @@ button{
     .message p{
         width: 200px;
         height: auto;
-        min-height: 40px;
+        min-height: 110px;
         background-color: white;
         position: relative;
         top:10%;
         right: 15%;
         justify-self: center;
+        margin: 1px solid black;
     }
+}
+#haha h2{
+    margin-left: 30%;
+    margin-top: 10%;
+    color: rgb(86, 9, 175);
+    font-size: 40px;
 }
