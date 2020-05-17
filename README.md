@@ -56,7 +56,15 @@ By-*Ayush Khandelwal,IIT2091240*
 
 ___
 
-## 
+## Running the project locally.
+
+### Open the [index.html](index.html) file with the downloaded browser.
+
+Right click on the index.html file and select option:
+> open with
+
+and then select the 
+>browser with which you want to open the page.
 
 ### How to use the **Precautionary** test
 
