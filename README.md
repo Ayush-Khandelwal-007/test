@@ -14,18 +14,6 @@ By-*Ayush Khandelwal,IIT2091240*
 
     Further one can go to the precautionary test and have a quick check up and know about his/her conditions and know what they should do further.
 
-* ### How to use the **Precautionary** test
-
-    1. Select the appropriate options from the given choices.
-
-        ![instruction1](images/instruction1.jpg)
-    1. Click on the check option below the options.
-
-        ![instruction2](images/instruction2.jpg)
-    1. Check on the screen for the steps to be taken. And then click on **okay** to refresh the form.
-
-        ![instruction3](images/instruction3.jpg)
-
     ---
 ## Cloning the project to your local machine.
 
@@ -51,9 +39,33 @@ By-*Ayush Khandelwal,IIT2091240*
 
 1. Browser compatibility
 
-| Browsers      | Their downloading link                                                                                                                |
-|---------------|---------------------------------------------------------------------------------------------------------------------------------------|
-| Firefox 3.5+  | [Download Link](https://www.mozilla.org/en-US/firefox/download/thanks/)                                                               |
-| Google Chrome | [Download Link](https://www.google.com/chrome/?brand=CHBD&gclid=EAIaIQobChMIrang1ta76QIVln8rCh1wVw3cEAAYASAAEgImhvD_BwE&gclsrc=aw.ds) |
-| Opera 12+     | [Download Link](https://www.opera.com/download)                                                                                       |
-| Safari 6+     | [Download Link](https://support.apple.com/en-us/HT204416)                                                                             |
+    | Browsers      | Their downloading link                                                                                                                |
+    |---------------|---------------------------------------------------------------------------------------------------------------------------------------|
+    | Firefox 3.5+  | [Download Link](https://www.mozilla.org/en-US/firefox/download/thanks/)                                                               |
+    | Google Chrome | [Download Link](https://www.google.com/chrome/?brand=CHBD&gclid=EAIaIQobChMIrang1ta76QIVln8rCh1wVw3cEAAYASAAEgImhvD_BwE&gclsrc=aw.ds) |
+    | Opera 12+     | [Download Link](https://www.opera.com/download)                                                                                       |
+    | Safari 6+     | [Download Link](https://support.apple.com/en-us/HT204416)                                                                             |
+
+
+2. A text editor or preferably an IDE(Integrated development environment) to make things works more easier and comfortable. Like
+
+    1. Visual Studio
+    1. Xcode
+    1. Atom
+    1. Brackets
+
+___
+
+## 
+
+### How to use the **Precautionary** test
+
+1. Select the appropriate options from the given choices.
+
+    ![instruction1](images/instruction1.jpg)
+1. Click on the check option below the options.
+
+    ![instruction2](images/instruction2.jpg)
+1. Check on the screen for the steps to be taken. And then click on **okay** to refresh the form.
+
+    ![instruction3](images/instruction3.jpg)
