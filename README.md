@@ -14,7 +14,7 @@ By-*Ayush Khandelwal,IIT2091240*
 
     Further one can go to the precautionary test and have a quick check up and know about his/her conditions and know what they should do further.
 
-    ---
+---
 ## Cloning the project to your local machine.
 
 1. Make sure your machine is having internet connection.
@@ -64,7 +64,7 @@ Right click on the index.html file and select option:
 > open with
 
 and then select the 
->browser with which you want to open the page.
+>browser (with which you want to open the page).
 
 ### How to use the **Precautionary** test
 
@@ -77,3 +77,13 @@ and then select the
 1. Check on the screen for the steps to be taken. And then click on **okay** to refresh the form.
 
     ![instruction3](images/instruction3.jpg)
+
+___
+
+## Contributing to the project
+
+1. Fork this repository from the above given option.
+1. Then clone the forked project on your device.
+1. Make changes in code in the local copy of the project and add comments using comment tag and state its use and way of working.
+1. Then push your locally changed project to your forked repository.
+1. Then raise a pull request to the main branch specifying all the changes in the listed format with a brief discription.
