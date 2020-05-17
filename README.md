@@ -39,10 +39,9 @@ By-*Ayush Khandelwal,IIT2091240*
 
 1. Browser compatibility
 
-    | Name         | Email          |
-
-    | ------------ | -------------- |
-    | Firefox 3.5+ | [Download Link](https://www.mozilla.org/en-US/firefox/download/thanks/) |
-    | Google Chrome| [Download Link]             |
-    |Opera 12+     | [Download Link]             |
-    |Safari 6+     | [Download Link]             |
+    | Name                | Email                                                                                                              |
+    | ------------------ | ------------------------------------------------------------------------------------ |
+    | Firefox 3.5+       | [Download Link](https://www.mozilla.org/en-US/firefox/download/thanks/) |
+    | Google Chrome | [Download Link]                                                                                             |
+    |Opera 12+          | [Download Link]                                                                                             |
+    |Safari 6+             | [Download Link]                                                                                             |
