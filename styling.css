@@ -433,4 +433,24 @@ label{
         margin-left: 20%;
         font-size: 15px;
     }
+
+    #introduction ul{
+        padding-inline-start: 0px;
+    }
+
+    #introduction ul li{
+        padding: 15px 20px 15px 45px;
+        background: url(images/tick.png) no-repeat left center;
+        font-family: Times, serif;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 6590px){
+    #introduction ul li{
+        padding: 15px 20px 15px 45px;
+        background: url(images/tick.png) no-repeat left center;
+        font-family: Times, serif;
+        font-size: 20px;
+    }
 }
