@@ -56,19 +56,19 @@ function pageReady() {
         }
         if(x+y+z==0)
         {
-            document.getElementById("dialouge").innerHTML="<p>You are totally fine.<br><a href=\"#\" onclick=\"window.location.reload(true);\">Okay.</a></p>"
+            document.getElementById("dialouge").innerHTML="<p>You are totally fine.<br><a href=\"#haha\" onclick=\"window.location.reload(true);\">Okay.</a></p>"
         }
         if(x+y+z==1)
         {
-            document.getElementById("dialouge").innerHTML="<p>Maintain social distancing.<br><a href=\"#\" onclick=\"window.location.reload(true);\">Okay.</a></p>"
+            document.getElementById("dialouge").innerHTML="<p>Maintain social distancing.<br><a href=\"#haha\" onclick=\"window.location.reload(true);\">Okay.</a></p>"
         }
         if(x+y+z==2)
         {
-            document.getElementById("dialouge").innerHTML="<p>You should go on quarantine.<br><a href=\"#\" onclick=\"window.location.reload(true);\">Okay.</a></p>"
+            document.getElementById("dialouge").innerHTML="<p>You should go on quarantine.<br><a href=\"#haha\" onclick=\"window.location.reload(true);\">Okay.</a></p>"
         }
         if(x+y+z==3)
         {
-            document.getElementById("dialouge").innerHTML="<p>Contant to doctor as soon as possible.<br><a href=\"#\" onclick=\"window.location.reload(true);\">Okay.</a></p>"
+            document.getElementById("dialouge").innerHTML="<p>Contant to doctor as soon as possible.<br><a href=\"#haha\" onclick=\"window.location.reload(true);\">Okay.</a></p>"
         }
     }
 }
