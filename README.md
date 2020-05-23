@@ -301,5 +301,6 @@ This part makes up the upper part of the penguin-
             * Eyes
                 *sparkle 
             * beak
+            * blush
 
 Whose alignment , shape and position is set using the css properties above.
