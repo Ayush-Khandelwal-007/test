@@ -8,13 +8,17 @@
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(245, 246, 161);
     margin: 0;
     padding: 0px 150px;
     display: flex;
     flex-direction: row;
     float: left;
     box-sizing: content-box;
+    background-image: url(images/doctor.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
 }
 #container {
     width: 100%;
@@ -27,6 +31,8 @@ body{
     flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
+    background-color: rgba(226, 230, 16, 0.8);
+    width: 100%;
 }
 
 #head{
@@ -40,28 +46,6 @@ h1 a{
     color: #861BBF;
     text-decoration: none;
     font-family:'Girassol', cursive;
-}
-
-#searchBox{
-    float: right;
-    background: linear-gradient(#E4F2B9, #B7E953);
-    background: -webkit-linear-gradient(#E4F2B9, #B7E953);
-    background: -o-linear-gradient(#E4F2B9, #B7E953);
-    background: -moz-linear-gradient(#E4F2B9, #B7E953);
-    width: 400px;
-    height: 50px;
-    padding: 20px 20px 0 20px;
-    margin-top: 20px;
-}
-
-.text{
-    float: left; 
-    width: 200px;
-    padding: 5px;
-    font-size: 15px;
-    color: #E36A0C;
-    background: white url(images/search.png) right center no-repeat;
-    border: 1px solid #C8D03E;
 }
 
 .clear{
@@ -138,10 +122,10 @@ h1 a{
 }
 
 #introduction{
-    background: linear-gradient(rgb(228, 160, 51), #B7E952); 
-    background: -webkit-linear-gradient(rgb(228, 160, 51), #B7E952); 
-    background: -o-linear-gradient(rgb(228, 160, 51), #B7E952); 
-    background: -moz-linear-gradient(rgb(228, 160, 51), #B7E952); 
+    background: linear-gradient(rgba(228, 160, 51,0.5), rgba(183, 233, 82, 0.5)); 
+    background: -webkit-linear-gradient(rgba(228, 160, 51,0.5), rgba(183, 233, 82, 0.5)); 
+    background: -o-linear-gradient(rgba(228, 160, 51,0.5), rgba(183, 233, 82, 0.5)); 
+    background: -moz-linear-gradient(rgba(228, 160, 51,0.5), rgba(183, 233, 82, 0.5)); 
     padding: 30px;
     margin: 16px 0;
 }
