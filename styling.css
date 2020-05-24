@@ -122,10 +122,10 @@ h1 a{
 }
 
 #introduction{
-    background: linear-gradient(rgba(228, 160, 51,0.5), rgba(183, 233, 82, 0.5)); 
-    background: -webkit-linear-gradient(rgba(228, 160, 51,0.5), rgba(183, 233, 82, 0.5)); 
-    background: -o-linear-gradient(rgba(228, 160, 51,0.5), rgba(183, 233, 82, 0.5)); 
-    background: -moz-linear-gradient(rgba(228, 160, 51,0.5), rgba(183, 233, 82, 0.5)); 
+    background: linear-gradient(rgba(228, 160, 51,0.75), rgba(183, 233, 82, 0.75)); 
+    background: -webkit-linear-gradient(rgba(228, 160, 51,0.75), rgba(183, 233, 82, 0.75)); 
+    background: -o-linear-gradient(rgba(228, 160, 51,0.75), rgba(183, 233, 82, 0.75)); 
+    background: -moz-linear-gradient(rgba(228, 160, 51,0.75), rgba(183, 233, 82, 0.75)); 
     padding: 30px;
     margin: 16px 0;
 }
@@ -342,7 +342,7 @@ button{
 }
 
 label{
-    background-color: rgb(238, 82, 225);
+    background-color: rgba(238, 82, 225,0.7);
     color: cyan;
     font-size: 15px;
     border-radius: 7px;
