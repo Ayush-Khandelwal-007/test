@@ -9,20 +9,22 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
-    padding: 0px 150px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     float: left;
     box-sizing: content-box;
     background-image: url(images/doctor.jpg);
+    background-blend-mode: lighten;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-attachment: fixed;
+    opacity: 1;
 }
 #container {
-    width: 100%;
     margin: 0 auto;
+    margin-left: 150px;
+    margin-right: 150px;
 }
 
 #header{
@@ -31,13 +33,11 @@ body{
     flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
-    background-color: rgba(226, 230, 16, 0.8);
     width: 100%;
 }
 
 #head{
-    display: flex;
-    height: auto;
+   width: 100%;
 }
 
 h1 a{
@@ -59,13 +59,13 @@ h1 a{
     background: -webkit-linear-gradient(rgb(171, 232, 243), rgb(236, 131, 154));
     background: -o-linear-gradient(rgb(171, 232, 243), rgb(236, 131, 154));
     background: -moz-linear-gradient(rgb(171, 232, 243), rgb(236, 131, 154));
-    padding: 15px 0px ;
-    border-radius: 10px;
+    padding: 5px 100px ;
+    border-radius: 5px;
     font-family: cursive;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row ;
-    justify-content: center;
+    justify-content: left;
 }
  
 #menu a{
@@ -73,8 +73,8 @@ h1 a{
     height: 30px;
     flex-wrap: inherit;
     align-items: center;
-    border-right: 1px solid #5d12e7;
     font-family: 'Titillium Web', sans-serif;
+    font-weight: 1000;
 }
 
 #menu a:last-child{
@@ -84,7 +84,7 @@ h1 a{
 #menu a{
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 17px;
+    font-size: 14px;
     color: #e42821;
     line-height: 30px;
     -webkit-transition: font-size 0.3s ease;
@@ -104,28 +104,48 @@ h1 a{
     -ms-transform: skewX(20deg);
     transform: skewX(20deg);
 }
+.uli {
+    padding-left: 30px;
+    padding-right: 20px;
+}
 
+.uli :last-child{
+    border-right: none;
+}
 @media screen and (max-width: 700px){
     #menu{
         flex-direction: column;
         align-content: center;
+        float: left;
     }
     body{
         padding: 0px 10px;
     }
+    .vide iframe{
+        margin: 20px 20px;
+        width: 50%;
+        align-items: center;
+    }
 }
 
 @media screen and (max-width: 1110px){
-    body{
-        padding: 0px 40px;
+
+    #container {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    #menu{
+        flex-direction: row;
+        align-content: center;
+        justify-content: space-evenly;
     }
 }
 
 #introduction{
-    background: linear-gradient(rgba(228, 160, 51,0.75), rgba(183, 233, 82, 0.75)); 
-    background: -webkit-linear-gradient(rgba(228, 160, 51,0.75), rgba(183, 233, 82, 0.75)); 
-    background: -o-linear-gradient(rgba(228, 160, 51,0.75), rgba(183, 233, 82, 0.75)); 
-    background: -moz-linear-gradient(rgba(228, 160, 51,0.75), rgba(183, 233, 82, 0.75)); 
+    background: linear-gradient(rgba(228, 160, 51,0.75), rgba(183, 233, 82, 0.75),rgba(228, 160, 51,0.75)); 
+    background: -webkit-linear-gradient(rgba(228, 160, 51,0.75), rgba(183, 233, 82, 0.75),rgba(228, 160, 51,0.75)); 
+    background: -o-linear-gradient(rgba(228, 160, 51,0.75), rgba(183, 233, 82, 0.75),rgba(228, 160, 51,0.75)); 
+    background: -moz-linear-gradient(rgba(228, 160, 51,0.75), rgba(183, 233, 82, 0.75),rgba(228, 160, 51,0.75)); 
     padding: 30px;
     margin: 16px 0;
 }
