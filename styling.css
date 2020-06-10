@@ -13,7 +13,7 @@ body{
     flex-direction: column;
     float: left;
     box-sizing: content-box;
-    background-image: url(images/doctor.jpg);
+    background-image:linear-gradient(rgba(77, 130, 243, 0.6),rgba(77, 130, 243, 0.6)), url(images/doctor.jpg);
     background-blend-mode: lighten;
     background-position: center center;
     background-repeat: no-repeat;
@@ -55,17 +55,12 @@ h1 a{
 #menu{
     height: auto;
     color: #e7c818;
-    background: linear-gradient(rgb(171, 232, 243), rgb(236, 131, 154));
-    background: -webkit-linear-gradient(rgb(171, 232, 243), rgb(236, 131, 154));
-    background: -o-linear-gradient(rgb(171, 232, 243), rgb(236, 131, 154));
-    background: -moz-linear-gradient(rgb(171, 232, 243), rgb(236, 131, 154));
-    padding: 5px 100px ;
+    background: rgb(60, 121, 233);
+    padding: 0px 0px 0px 45px;
     border-radius: 5px;
     font-family: cursive;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row ;
-    justify-content: left;
+    display: grid ;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr ;
 }
  
 #menu a{
@@ -85,7 +80,7 @@ h1 a{
     text-decoration: none;
     text-transform: uppercase;
     font-size: 14px;
-    color: #e42821;
+    color: whitesmoke;
     line-height: 30px;
     -webkit-transition: font-size 0.3s ease;
     -moz-transition: font-size 0.3s ease;
@@ -104,20 +99,40 @@ h1 a{
     -ms-transform: skewX(20deg);
     transform: skewX(20deg);
 }
+#menu a.active{
+    text-align: left;
+}
 .uli {
-    padding-left: 30px;
-    padding-right: 20px;
+    text-align: center;
+    display: flex;
+    align-self: flex-start;
+    height: auto;
 }
 
-.uli :last-child{
-    border-right: none;
+.uli  img{
+  height: inherit;
+  transform: skewX(-17deg);
 }
-@media screen and (max-width: 700px){
+@media screen and (max-width: 885px){
     #menu{
-        flex-direction: column;
-        align-content: center;
-        float: left;
+        height: auto;
+        color: #e7c818;
+        background: rgb(60, 121, 233);
+        padding: 0px 0px 0px 10px;
+        border-radius: 5px;
+        font-family: cursive;
+        display: grid ;
+        grid-template-columns:0.5fr 1fr 1fr 1.2fr 1fr ;
     }
+
+    #menu a{
+        font-size: 10px;
+    }
+    
+    #menu a:hover, #menu a.active{
+        font-size: 15px;
+    }
+
     body{
         padding: 0px 10px;
     }
@@ -413,6 +428,12 @@ label{
         align-self: center;
         min-width: 30px;
 }
+#introduction ul li{
+    padding: 15px 20px 15px 45px;
+    background: url(images/tick.png) no-repeat left center;
+    font-family: Times, serif;
+    font-size: 18px;
+}
 }
 
 #haha{
@@ -427,7 +448,7 @@ label{
     font-size: 40px;
 }
 
-@media screen and (max-width: 587px){
+@media screen and (max-width: 600px){
     #dialouge p{
         width: 200px;
         height: auto;
@@ -446,15 +467,24 @@ label{
         padding: 15px 20px 15px 45px;
         background: url(images/tick.png) no-repeat left center;
         font-family: Times, serif;
-        font-size: 12px;
+        font-size: 10px;
     }
 }
 
-@media screen and (max-width: 6590px){
+@media screen and (max-width: 659px){
     #introduction ul li{
         padding: 15px 20px 15px 45px;
         background: url(images/tick.png) no-repeat left center;
         font-family: Times, serif;
-        font-size: 20px;
+        font-size: 12px;
+    }
+
+    #introduction h3 {
+        margin-block-start: 0.5em;
+        margin-block-end: 0.5em;
+    }
+
+    h1 a{
+        font-size: 30px;
     }
 }
