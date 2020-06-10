@@ -55,12 +55,12 @@ h1 a{
 #menu{
     height: auto;
     color: #e7c818;
-    background: rgb(60, 121, 233);
-    padding: 0px 0px 0px 45px;
+    background: #008dc9;
+    padding: 8px 0px 8px 45px;
     border-radius: 5px;
     font-family: cursive;
     display: grid ;
-    grid-template-columns:1fr 1fr 1fr 1fr 1fr ;
+    grid-template-columns:0.6fr 1.2fr 1fr 1.36fr 1fr ;
 }
  
 #menu a{
@@ -98,9 +98,11 @@ h1 a{
     -o-transform: skewX(20deg);
     -ms-transform: skewX(20deg);
     transform: skewX(20deg);
+    background-color: rgb(108, 255, 71);
 }
 #menu a.active{
-    text-align: left;
+    text-align: right;
+    background-color: #008dc9;;
 }
 .uli {
     text-align: center;
@@ -111,17 +113,11 @@ h1 a{
 
 .uli  img{
   height: inherit;
-  transform: skewX(-17deg);
+  transform: skewX(-20deg);
 }
 @media screen and (max-width: 885px){
     #menu{
-        height: auto;
-        color: #e7c818;
-        background: rgb(60, 121, 233);
-        padding: 0px 0px 0px 10px;
-        border-radius: 5px;
-        font-family: cursive;
-        display: grid ;
+        padding: 5px 0px 5px 45px;
         grid-template-columns:0.5fr 1fr 1fr 1.2fr 1fr ;
     }
 
