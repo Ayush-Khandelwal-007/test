@@ -485,7 +485,13 @@ label{
     }
     #menu a{
         font-size: 10px;
+        /*line-height:10px;*/
+    }
+    #menu div:nth-child(4) a{
         line-height:10px;
+    }
+    #menu div:nth-child(2) a{
+        line-height:15px;
     }
     #menu{
         padding: 5px 0px 5px 10px;
