@@ -90,7 +90,7 @@ h1 a{
 }
 
 #menu a:hover, #menu a.active{
-    font-size: 22px;
+    font-size: 20px;
     font-weight: bold;
     color: rgb(253, 21, 21);
     -moz-transform: skewX(20deg);
@@ -492,7 +492,7 @@ label{
         grid-template-columns:0.5fr 1fr 1fr 1.2fr 1fr ;
     }
 }
-@media screen and (max-width: 607px){
+@media screen and (max-width: 635px){
     #menu div:nth-child(4) a{
         line-height:10px;
     }
@@ -500,6 +500,6 @@ label{
         line-height:15px;
     }
     #menu a:hover, #menu a.active{
-        font-size: 15px;
+        font-size: 14px;
     }
 }
