@@ -484,22 +484,23 @@ label{
         font-size: 30px;
     }
     #menu a{
-        font-size: 11px;
-        /*line-height:10px;*/
+        font-size: 7px;
+        line-height:30px;
+    }
+    #menu div:nth-child(4) a{
+        line-height:15px;
+    }
+    #menu div:nth-child(2) a{
+        line-height:15px;
     }
     #menu{
         padding: 5px 0px 5px 10px;
         grid-template-columns:0.5fr 1fr 1fr 1.2fr 1fr ;
     }
-}
-@media screen and (max-width: 635px){
-    #menu div:nth-child(4) a{
-        line-height:10px;
-    }
-    #menu div:nth-child(2) a{
-        line-height:15px;
-    }
     #menu a:hover, #menu a.active{
-        font-size: 14px;
+        font-size: 11px;
+    }
+    #menu{
+        padding: 0px 0px 0px 8px;
     }
 }
