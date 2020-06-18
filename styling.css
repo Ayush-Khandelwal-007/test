@@ -90,7 +90,7 @@ h1 a{
 }
 
 #menu a:hover, #menu a.active{
-    font-size: 22px;
+    font-size: 20px;
     font-weight: bold;
     color: rgb(253, 21, 21);
     -moz-transform: skewX(20deg);
@@ -98,7 +98,7 @@ h1 a{
     -o-transform: skewX(20deg);
     -ms-transform: skewX(20deg);
     transform: skewX(20deg);
-    background-color: rgb(108, 255, 71);
+    /*background-color: rgb(108, 255, 71);*/
 }
 #menu a.active{
     text-align: right;
@@ -484,17 +484,22 @@ label{
         font-size: 30px;
     }
     #menu a{
-        font-size: 10px;
+        font-size: 11px;
         /*line-height:10px;*/
     }
+    #menu{
+        padding: 5px 0px 5px 10px;
+        grid-template-columns:0.5fr 1fr 1fr 1.2fr 1fr ;
+    }
+}
+@media screen and (max-width: 635px){
     #menu div:nth-child(4) a{
         line-height:10px;
     }
     #menu div:nth-child(2) a{
         line-height:15px;
     }
-    #menu{
-        padding: 5px 0px 5px 10px;
-        grid-template-columns:0.5fr 1fr 1fr 1.2fr 1fr ;
+    #menu a:hover, #menu a.active{
+        font-size: 14px;
     }
 }
