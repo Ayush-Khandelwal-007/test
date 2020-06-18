@@ -102,13 +102,14 @@ h1 a{
 }
 #menu a.active{
     text-align: right;
-    background-color: #008dc9;
+    background-color: #008dc9;;
 }
 .uli {
     text-align: center;
     display: flex;
     align-self: flex-start;
     height: auto;
+    line-height: 1px;;
 }
 
 .uli  img{
@@ -482,19 +483,5 @@ label{
 
     h1 a{
         font-size: 30px;
-    }
-    #menu a{
-        font-size: 10px;
-        /*line-height:10px;*/
-    }
-    #menu div:nth-child(4) a{
-        line-height:10px;
-    }
-    #menu div:nth-child(2) a{
-        line-height:15px;
-    }
-    #menu{
-        padding: 5px 0px 5px 10px;
-        grid-template-columns:0.5fr 1fr 1fr 1.2fr 1fr ;
     }
 }
