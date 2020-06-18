@@ -68,7 +68,7 @@ function pageReady() {
         }
         if(x+y+z==3)
         {
-            document.getElementById("dialouge").innerHTML="<p>Contant to doctor as soon as possible.<br><a href=\"#haha\" onclick=\"window.location.reload(true);\">Okay.</a></p>"
+            document.getElementById("dialouge").innerHTML="<p>Contact to doctor as soon as possible.<br><a href=\"#haha\" onclick=\"window.location.reload(true);\">Okay.</a></p>"
         }
     }
 }
