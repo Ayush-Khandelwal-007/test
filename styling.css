@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Girassol&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 *{
     box-sizing: border-box;
 }
@@ -165,6 +166,7 @@ h1 a{
     font-size: 45px;
     color: #316901;
     font-weight: normal;
+    font-family:'Staatliches', cursive; ;
 }
 
 #introduction p{
@@ -471,6 +473,9 @@ label{
 }
 
 @media screen and (max-width: 659px){
+    #introduction {
+        padding: 20px 30px;
+    }
     #introduction ul li{
         padding: 15px 20px 15px 45px;
         background: url(images/tick.png) no-repeat left center;
@@ -502,6 +507,12 @@ label{
     }
     .sidebar ul li a:hover, .sidebar ul li a.active{
         font-size: 18px;
+    }
+    #introduction h3 {
+        font-size: 35px;
+    }
+    .sidebar h3 {
+        font-size: 30px;
     }
 }
 @media screen and (max-width: 540px){
