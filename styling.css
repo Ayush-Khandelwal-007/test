@@ -133,11 +133,6 @@ h1 a{
     body{
         padding: 0px 10px;
     }
-    .vide iframe{
-        margin: 20px 20px;
-        width: 50%;
-        align-items: center;
-    }
 }
 
 @media screen and (max-width: 1110px){
@@ -248,13 +243,8 @@ h1 a{
 .vide{
    /* background-color: teal;*/
     flex:1;
-    position: relative;
-    margin-top: 8%;
-}
-
-.vide iframe{
-    margin: 20px 20px;
-    width: 110%;
+    margin: 20px 20px 0px 0px;
+    width: 100%;
     align-items: center;
 }
 
@@ -267,7 +257,7 @@ h1 a{
         margin-bottom: 10px;
     }
     .vide iframe{
-        width: 100%;
+        width: 95%;
         }
 }
 .test{
@@ -480,7 +470,7 @@ label{
     body{
         background-position: left top;
         background-repeat: no-repeat;
-        background-size: 150% 100%;
+        background-size: 170% 100%;
         background-attachment: fixed;
     }
     #introduction {
