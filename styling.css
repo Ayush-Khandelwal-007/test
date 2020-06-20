@@ -117,9 +117,6 @@ h1 a{
   transform: skewX(-20deg);
 }
 
-
-
-
 #introduction{
     background: linear-gradient(rgba(228, 160, 51,0.75), rgba(183, 233, 82, 0.75),rgba(228, 160, 51,0.75)); 
     background: -webkit-linear-gradient(rgba(228, 160, 51,0.75), rgba(183, 233, 82, 0.75),rgba(228, 160, 51,0.75)); 
@@ -395,6 +392,9 @@ label{
     #container{
         margin: 0px 10px;
     }
+    iframe{
+        height:200%;
+    }
 }
 
 @media screen and (max-width: 659px){
@@ -432,6 +432,9 @@ label{
     }
     #menu a:hover, #menu a.active{
         font-size: 11px;
+    }
+    .sidebar{
+        padding: 10px 15px;
     }
     .sidebar ul li a{
         font-size: 15px;
@@ -553,5 +556,8 @@ label{
         margin-bottom:40px;
         margin-left: 0px;
         width: 100%;
+    }
+    .sidebar{
+        min-width: 80px;
     }
 }
