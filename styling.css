@@ -8,12 +8,13 @@
     box-sizing: border-box;
 }
 body{
-    font-family: 'Montserrat', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     display: flex;
     flex-direction: column;
     float: left;
     box-sizing: content-box;
+    background-image:linear-gradient(rgba(77, 130, 243, 0.6),rgba(77, 130, 243, 0.6)), url(images/doctor.jpg);
     background-blend-mode: lighten;
     background-position: center center;
     background-repeat: no-repeat;
@@ -43,9 +44,9 @@ body{
 h1 a{
     font-size: 50px; 
     font-weight: 100;
-    color: #ff4c68;
+    color: #861BBF;
     text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
+    font-family:'Girassol', cursive;
 }
 
 .clear{
@@ -54,11 +55,11 @@ h1 a{
 
 #menu{
     height: auto;
-    color: #ee6f57;
+    color: #e7c818;
     background: #008dc9;
     padding: 8px 0px 8px 45px;
     border-radius: 5px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: cursive;
     display: grid ;
     grid-template-columns:0.6fr 1.2fr 1fr 1.36fr 1fr ;
 }
@@ -68,7 +69,7 @@ h1 a{
     height: 30px;
     flex-wrap: inherit;
     align-items: center;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
     font-weight: 1000;
 }
 
@@ -92,7 +93,7 @@ h1 a{
 #menu a:hover, #menu a.active{
     font-size: 20px;
     font-weight: bold;
-    color: yellow;
+    color: rgb(253, 21, 21);
     -moz-transform: skewX(20deg);
     -webkit-transform: skewX(20deg);
     -o-transform: skewX(20deg);
@@ -117,8 +118,10 @@ h1 a{
 }
 
 #introduction{
-   
-    background-color: #ffe05d;
+    background: linear-gradient(rgba(228, 160, 51,0.75), rgba(183, 233, 82, 0.75),rgba(228, 160, 51,0.75)); 
+    background: -webkit-linear-gradient(rgba(228, 160, 51,0.75), rgba(183, 233, 82, 0.75),rgba(228, 160, 51,0.75)); 
+    background: -o-linear-gradient(rgba(228, 160, 51,0.75), rgba(183, 233, 82, 0.75),rgba(228, 160, 51,0.75)); 
+    background: -moz-linear-gradient(rgba(228, 160, 51,0.75), rgba(183, 233, 82, 0.75),rgba(228, 160, 51,0.75)); 
     padding: 30px;
     margin: 16px 0;
 }
@@ -127,13 +130,13 @@ h1 a{
     font-size: 60px;
     color: #316901;
     font-weight: normal;
-    font-family: 'Montserrat', sans-serif;
+    font-family:'Staatliches', cursive; ;
     margin: 30px 0px;
 }
 
 #introduction p{
     font-size: 25px; 
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
     color: #628F19;
     text-align: justify;
 }
@@ -141,12 +144,12 @@ h1 a{
 #introduction ul li{
     padding: 17px 0 17px 70px;
     background: url(images/tick.png) no-repeat left center;
-    font-family: 'Montserrat', sans-serif;
+    font-family: Times, serif;
 }
 
 .Mythb{
     font-size:25px;
-    color: black;
+    color: rgb(44, 120, 219);
     list-style: none;
 }
 
@@ -157,7 +160,7 @@ h1 a{
     margin: 40px 10%;
     border-radius: 5px;
     padding: 10px;
-    background-color: #a6f6f1;
+    background-color: rgba(230, 240, 95, 0.589);
 }
 
 .leftsidebar ul li{
@@ -184,7 +187,7 @@ h1 a{
 .sidebar h3{
     color: rgb(238, 28, 185);
     font-size: 45px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Girassol', cursive;
     margin: 10px 0px;
 }
 
@@ -225,7 +228,7 @@ h1 a{
     display: flex;
     flex-direction: row;
     margin: 0px;
-    
+    border: 2px solid blue;
     border-radius: 20px;
     padding-right: 20px;
     padding-left: 20px;
@@ -264,7 +267,10 @@ input{
 }
 
 .footer{
-    background-color: #ffe05d;
+    background: linear-gradient(rgb(199, 243, 127), #D5D533);
+    background: -webkit-linear-gradient(rgb(199, 243, 127), #D5D533);
+    background: -o-linear-gradient(rgb(199, 243, 127), #D5D533);
+    background: -moz-linear-gradient(rgb(199, 243, 127), #D5D533);
     padding: 8px 30px 8px 30px;
     margin-top: 15px;
     margin-bottom: 15px;
@@ -290,7 +296,7 @@ iframe{
     justify-self: center;
     font-size: 20px;
     margin-top: 30px;
-    font-family: 'Montserrat', sans-serif;
+    font-family:'Titillium Web', sans-serif;
 }
 #dialouge a{
     color: rgb(15, 148, 55);
@@ -318,8 +324,8 @@ button{
 
 .form h3{
     font-size: 30px;
-    font-family: 'Montserrat', sans-serif;
-    color: black;
+    font-family: 'Girassol', cursive;
+    color: red;
     align-self: center;
 }
 
@@ -341,7 +347,7 @@ label{
 
 #haha h2{
     justify-self: center;
-    color: #ff4c68;
+    color: rgb(86, 9, 175);
     font-size: 40px;
 }
 
@@ -380,7 +386,7 @@ label{
     #introduction ul li{
         padding: 15px 20px 15px 45px;
         background: url(images/tick.png) no-repeat left center;
-        font-family: 'Montserrat', sans-serif;
+        font-family: Times, serif;
         font-size: 10px;
     }
     #container{
@@ -404,7 +410,7 @@ label{
     #introduction ul li{
         padding: 15px 20px 15px 45px;
         background: url(images/tick.png) no-repeat left center;
-        font-family: 'Montserrat', sans-serif;
+        font-family: Times, serif;
         font-size: 12px;
     }
 
@@ -448,7 +454,7 @@ label{
     .test{
         display: flex;
         flex-direction: column;
-        margin: 0px;       
+        margin: 0px;
     }
     #pg{
         zoom:1.1;
@@ -490,7 +496,7 @@ label{
     #introduction ul li{
         padding: 15px 20px 15px 45px;
         background: url(images/tick.png) no-repeat left center;
-        font-family: 'Montserrat', sans-serif;
+        font-family: Times, serif;
         font-size: 18px;
     }
     .Mythb{
@@ -543,7 +549,7 @@ label{
         margin: 40px 10%;
         border-radius: 5px;
         padding: 10px;
-        background-color:  #ff414d;
+        background-color: rgba(230, 240, 95, 0.589);
     }
     .vide{
         margin-top: auto;
@@ -554,8 +560,4 @@ label{
     .sidebar{
         min-width: 80px;
     }
-}
-.rocket-head{
-    margin-left: 20px;
-    font-family: 'Montserrat', sans-serif;
 }
